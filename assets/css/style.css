@@ -1,13 +1,16 @@
+/* All elements have no margin or padding and adds padding and margin into an element's total height & width */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Determines the global background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling for the header including padding, font, background color and text color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Styles the h1 in the header, including it's display type and the size of it's font */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the color of the 'seo' part of Horiseon name to another color inside the h1 */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styles the nav in the header to include padding, margin, float position, font family and font size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Styles the unordered list (ul) inside the navigation while removing list style */
 header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+/* Styles the list item (li) in the unordered list (ul) to display inline and have a left margin */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Colors anchor texts and removes any text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the font size for paragraph tags */
 p {
     font-size: 16px;
 }
 
+/* Sets style for .hero section with the height, width, margin, and background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Styles .float-left to have a float left and a right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Styles .float-right to have a float right and a left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets style for the .content section to have width, inline-block display and left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Sets style for benefits section to have a margin, padding, clear float, right float, width, height, font family, and background color */
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ aside.benefits {
     background-color: #2589bd;
 }
 
+/* Styles the section class to have bottom margin and color */
 .section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the h3 in the section class to have bottom margin and center align */
 .section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Styles the image in the section class to display as a block, have auto margins amd a max-width */
 .section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styles the article class to have bottom margin, padding, height, font family, background color and text color */
 .article {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,22 +130,21 @@ aside.benefits {
     color: #ffffff;
 }
 
+/* Styles the image in the article class to have a max-height */
 .article img {
     max-height: 200px;
 }
 
+/* Sets style for h2 in the article class to have bottom margin and font size */
 .article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styles the footer to have padding, clear float, font family, and center aligned text */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
