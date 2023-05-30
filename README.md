@@ -12,6 +12,9 @@ When the HTML and CSS files are opened in a browser, the user will be presented 
 ## Tests
 Ensure that all links are functioning correctly and that the HTML and CSS have no errors.
 
+## Live Demo
+The live version of the project can be found [here](https://lightoftwelve.github.io/horiseon-accessibility-upgrade/).
+
 ## Credits
 This project was accepted and completed as part of the UofT SCS Coding Boot Camp Online: Fullstack Flex PT course through the University of Toronto.
 The original project was created by edX Boot Camps LLC. and has been modified for the purpose of this assignment.
