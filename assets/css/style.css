@@ -89,6 +89,27 @@ p {
     margin-left: 20px;
 }
 
+/* Styles the services class to have bottom margin, padding, height, font family, background color and text color */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles the image in the services class to have a max-height */
+.services img {
+    max-height: 200px;
+}
+
+/* Sets style for h2 in the services class to have bottom margin and font size */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* Sets style for benefits section to have a margin, padding, clear float, right float, width, height, font family, and background color */
 aside.benefits {
     margin-right: 20px;
@@ -101,48 +122,27 @@ aside.benefits {
     background-color: #2589bd;
 }
 
-/* Styles the section class to have bottom margin and color */
-.section {
+/* Styles the marketing class to have bottom margin and color */
+.marketing {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Styles the h3 in the section class to have bottom margin and center align */
-.section h3 {
+/* Styles the h3 in the marketing class to have bottom margin and center align */
+.marketing h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Styles the image in the section class to display as a block, have auto margins amd a max-width */
-.section img {
+/* Styles the image in the marketing class to display as a block, have auto margins amd a max-width */
+.marketing img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Styles the article class to have bottom margin, padding, height, font family, background color and text color */
-.article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Styles the image in the article class to have a max-height */
-.article img {
-    max-height: 200px;
-}
-
-/* Sets style for h2 in the article class to have bottom margin and font size */
-.article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* Styles the footer to have padding, clear float, font family, and center aligned text */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
