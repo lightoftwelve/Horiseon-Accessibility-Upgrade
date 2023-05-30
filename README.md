@@ -19,5 +19,7 @@ The live version of the project can be found [here](https://lightoftwelve.github
 This project was accepted and completed as part of the UofT SCS Coding Boot Camp Online: Fullstack Flex PT course through the University of Toronto.
 The original project was created by edX Boot Camps LLC. and has been modified for the purpose of this assignment.
 
+I want to thank my teacher, Sean Roshan, and TA, Serena Guo, for their guidance and suggestions in the structuring of this project.
+
 ## License
 N/A
